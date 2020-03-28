@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Sử dụng thẻ tiêu đề</title>
+</head>
+
+<body>
+<!-- Bài Tập 1 - Form -->
+
+	<h3>THÔNG TIN GIAO DỊCH</h3>
+
+	<form action="" method="">
+		<!-- model -->
+		<label for="name">Model <span style="color: red">*</span></label><br>
+			<input type="text" required="" name="model" id="name" placeholder="Nhập model sản phẩm.."><br><br>
+		
+		<!-- Thương hiệu -->
+		<label for="brand">Thương hiệu <span style="color: red">*</span></label><br>
+			<select name="brand" id="" required="">
+				<option value="Longines">Longines</option>
+				<option value="Casio">Casio</option>
+				<option value="DG">DG</option>
+				<option value="Tissot">Tissot</option>
+				<option value="Rolex">Rolex</option>			
+			</select><br>
+		<label for="">
+			<input type="radio" checked="" name="type" value="1"> Đồng hồ cơ 
+			<input type="radio" checked="" name="type" value="1"> Đồng hồ Quartz
+		</label><br><br>
+
+		<!-- Hình ảnh -->
+		<label for="img">Hình ảnh sản phẩm <span style="color: red">*</span> </label><br>
+			<input type="file" name="photo" ><br><br>
+		
+		<!-- Ghi chú -->
+		<label for="">Tình trạng bên ngoài <span style="color: red">*</span></label><br>
+			<textarea name="note" required="" cols="30" rows="5" placeholder="Đồng hồ có xước dăm...."></textarea><br><br>
+
+		<!-- Hạng mục sửa chữa -->
+		<span>Hạng mục sửa chữa <span style="color: red">*</span></span><br>
+		<span style="color: red"><i>Miễn phí thì nhập = 0, Báo sau thì nhập = 1</i></span>
+		
+
+		<!-- Bảng -->
+		<table border="1" cellpadding="5">
+			<tr>
+				<th>STT</th>
+				<th>Dịch vụ</th>
+				<th>Giá dịch vụ</th>
+				<th>Chọn</th>
+			</tr>
+			<tr>
+				<td>1</td>
+				<td>Kiểm tra - Sửa chữa đồng hồ không chạy</td>
+				<td>
+					<form action="">
+						<label for="number"></label>
+						<input type="number" placeholder="0">
+					</form>
+				</td>
+				<td>
+					<form action="">
+						<input type="checkbox" value="chọn">Chọn
+					</form>
+				</td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td>Kiểm tra - Sửa chữa đồng hồ chạy không chính xác</td>
+				<td>
+					<form action="">
+						<label for="number"></label>
+						<input type="number" placeholder="0">
+					</form>
+				</td>
+				<td>
+					<form action="">
+						<input type="checkbox" value="chọn">Chọn
+					</form>
+				</td>
+			</tr>
+			<tr>
+				<td>3</td>
+				<td>Kiểm tra - Sửa chữa đồng hồ bị vào nước</td>
+				<td>
+					<form action="">
+						<label for="number"></label>
+						<input type="number" placeholder="0">
+					</form>
+				</td>
+				<td>
+					<form action="">
+						<input type="checkbox" value="chọn">Chọn
+					</form>
+				</td>
+			</tr>
+			<tr>
+				<td>4</td>
+				<td>Bánh xe truyền chung các loại</td>
+				<td>
+					<form action="">
+						<label for="number"></label>
+						<input type="number" placeholder="0">
+					</form>
+				</td>
+				<td>
+					<form action="">
+						<input type="checkbox" value="chọn">Chọn
+					</form>
+				</td>
+			</tr>
+		</table>
+
+		<br>
+		<input type="submit" name="Ok" value="OK">
+		<input type="reset" name="Nhập lại" value="Nhập lại">
+	</form>
+	<br><br><br><hr><br>
+
+
+
+<!-- Bài Tập 2 - Form -->
+
+	<!-- 1 -->
+	1/
+	<center>
+		<h1>Chào mừng các bạn đến với ngôn ngữ HTML5</h1>
+		<h3>Định dạng văn bản bằng thẻ</h3>
+	</center><br><br>
+
+
+	<!-- 2 -->
+	2/<br>
+	<p><b>Internet</b><br>
+		The Internet is a network of networks. That is, computer networks are linked to other networks, spanning countries. The TCP/IP transfer protocol provides the bindings that connect all these computers the world over.
+	</p>
+
+	<p><b>Layout</b><br>
+		A web page is not a printed page. That is, the guidelines that are applied to print may not apply to a web page. Avoid making the reader scan too much of the screen while reading the page. After a while it puts a strain on the eyes, and the reader may lose interest. Text should be contained within a few inches width. 
+	</p><br>
+
+	
+	<!-- 3 -->
+	3/<br>
+	<pre>
+		Little Miss Muffet
+			Sat on a Tuffet
+		Eating her curds and whey
+			There came a spider and sat down beside her
+		And frightened Miss Muffet away
+	</pre>
+
+	
+	<!-- 4 -->
+	4/<br>
+	<pre>
+		The Value of 2 to the power of 3 is:
+ 		2 <sup>3</sup> = 8
+ 	</pre>
+
+	
+	<!-- 5 -->
+	5/<br>
+	<pre>
+		The Value of Log to the base 10 is:
+		Log<sub>10</sub> = 1
+	</pre>
+
+
+	<!-- 6 -->
+	6/<br>
+	<pre>
+		Peacock
+			National bird of India
+		Internet
+			A network of networks
+		HTML
+			HyperText Markup Language
+	</pre>
+
+
+	<!-- 7 -->
+	7/<br>
+	<ol>
+		<li>Introduction to HTML
+			<ol type="a">
+				<li>Introduction to the World Wide Web</li>
+				<li>Introduction to HTML tags
+					<ul>
+						<li>Formatting text</li>
+						<li>Enhancing the text</li>
+					</ul>
+				</li>
+			</ol>
+		</li>
+		<li>Designing a Web Site
+			<ol type="i">
+				<li>Designing the page</li>
+				<li>Designing navigation</li>
+				<li>Creating Hyperlinks</li>
+			</ol>
+		</li>
+	</ol>
+
+
+	
+</body>
+</html>
