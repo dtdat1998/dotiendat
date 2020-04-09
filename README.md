@@ -10,3 +10,8 @@ BaiTapITplus
   <a href="https://dtdat1998.github.io/dotiendat/BTBuoi3" target="blank">Bài Tập Buổi 3</a>
 
 
+  <a href="https://dtdat1998.github.io/dotiendat/BTBuoi4" target="blank">Bài Tập Buổi 4</a>
+
+
+  <a href="https://dtdat1998.github.io/dotiendat/BTBuoi5" target="blank">Bài Tập Buổi 5</a>
+

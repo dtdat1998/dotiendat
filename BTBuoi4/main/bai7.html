@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		#main{
+			width: 800px;
+			margin: 0 auto;
+		}
+
+		table{
+			border: 1 solid #122A0A;
+			color: green;
+			background-color: #9FF781;
+			width: 600px;
+		}
+
+		.op1{
+			background-color: blue;
+			color: #fff;
+		}
+	</style>
+
+</head>
+<body>
+	<div id="main">
+		<h1 style="color: green"><center>Phiếu đăng ký tham gia chương trình khuyến mại</center></h1>
+		
+		<div id="table">
+			<form action="" id="form">
+				<center>
+					<table border="1" cellspacing="0" cellpadding="7" width="600px">
+						<tr>
+							<td width="200">Họ và tên</td>
+							<td>
+								<input type="text" placeholder="Nhập họ tên" name="name" required="">
+							</td>
+						</tr>
+						<tr>
+							<td>Địa chỉ</td>
+							<td>
+								<input type="text" name="address" placeholder="Nhập địa chỉ" required="">
+							</td>
+						</tr>
+						<tr>
+							<td>Điện thoại</td>
+							<td>
+								<input type="number" name="number" required="" placeholder="Nhập số điện thoại">
+							</td>
+						</tr>
+						<tr>
+							<td>Giới tính</td>
+							<td>
+								<label>
+									<input type="radio" name="gender" value="0" checked="">Nam	
+								</label>
+								<label>
+									<input type="radio" name="gender" value="1" checked="">Nữ
+								</label>
+							</td>
+						</tr>
+						<tr>
+							<td>Nghề nghiệp</td>
+							<td>
+								<select name="job">
+									<option value="giaovien">Giáo viên</option>
+									<option value="bacsi">Bác sĩ</option>
+									<option value="canhsat">Cảnh sát</option>
+									<option value="kysu">Kỹ sư</option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<td>Chọn sản phẩm tham gia</td>
+							<td>
+								<select multiple="">
+									<option value="kdr" class="op1">Kem đánh răng</option>
+									<option value="bg" >Bột giặt</option>
+									<option value="dgd" class="op1">Dầu gội đầu</option>
+									<option>Sữa tắm</option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<td>Số người dự đoán tham gia</td>
+							<td>
+								<input type="number" name="guess" placeholder="250000">
+							</td>
+						</tr>
+						<tr>
+							<td colspan="2"><center>
+								<input type="submit" name="ok" title="Đồng ý" value="Đồng ý">
+							</center></td>
+						</tr>
+						<tr>
+							<td colspan="2" style="color: red; text-align: center;" >
+								Bạn đã đăng ký thành công
+							</td>
+						</tr>
+					</table>
+				</center>	
+			</form>
+		</div>
+	</div>
+	
+</body>
+</html>
