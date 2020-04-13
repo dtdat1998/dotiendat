@@ -1,0 +1,104 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Bài 4</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style type="text/css">
+		#main{
+			width: 900px;
+			min-height: 700px;
+			margin: 0px auto;
+		}
+		#banner1{
+			width: 900px;
+			margin: 0px;
+		}
+		#banner2{
+			display: none;
+		}
+		#div1{
+			background-color: green;
+			width: 300px;
+			height: 300px;
+		}
+		#div2{
+			background-color: blue;
+			width: 300px;
+			height: 300px;
+		}
+		#div3{
+			background-color: yellow;
+			width: 300px;
+			height: 300px;
+		}
+		.left{
+			float: left;
+		}
+		@media screen and (max-width: 700px){
+			body{
+				color: white;
+			}
+			#main{
+				width: 400px;
+				height: 1000px;
+				margin: 0px;
+			}
+			#banner1{
+			display: none;
+			}
+			#banner2{
+			display: block;
+			width: 400px;
+			margin: 0px auto;
+			}
+			#div1{
+				background-color: green;
+				width: 400px;
+				height: 300px;
+			}
+			#div2{
+				background-color: blue;
+				width: 400px;
+				height: 300px;
+			}
+			#div3{
+				background-color: yellow;
+				width: 400px;
+				height: 300px;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div id="main">
+
+		<div id="banner1">
+			<img src="../img/b41.jpg" style="width: 900px; height: 400px;">
+		</div>
+		<div id="banner2">
+			<img src="../img/b42.png" style="width: 400px; height: 250px;">
+		</div>
+
+		<div id="div1" class="left">
+			<p>
+				<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita dicta eum nesciunt! Dignissimos harum earum maiores incidunt optio sint ipsum modi facilis, recusandae minus quo inventore facere, enim nobis voluptatibus.</span>
+				<span>Cumque sunt velit doloribus ducimus praesentium libero numquam, accusantium molestias nobis magnam unde, saepe tempora temporibus incidunt odio atque, autem explicabo eligendi fugiat veniam! Dolorem accusantium vel aperiam, asperiores nisi!</span>
+			</p>
+		</div>
+		<div id="div2" class="left">
+			<p>
+				<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum harum odit in, sit velit unde quam. Modi eveniet ex pariatur fuga, tempora officiis sint, dolore aperiam, hic fugiat saepe excepturi?</span>
+				<span>Pariatur atque minima nisi sit placeat, distinctio esse sint veritatis iusto ipsa rerum possimus soluta nulla delectus temporibus odio saepe quo, fuga vel vero magnam commodi est quod quas laborum.</span>
+			</p>
+		</div>
+		<div id="div3" class="left">
+			<p>
+				<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo expedita maxime tempore ducimus cum modi, fugit possimus, numquam corrupti eos consectetur. In quibusdam iste itaque dignissimos ex laborum sint doloremque.</span>
+				<span>Repudiandae id similique consectetur cumque doloribus deserunt neque consequuntur, minima illo voluptates quasi necessitatibus nihil iusto libero voluptatibus veniam minus suscipit? Nihil, commodi et aliquid non qui tempora sed incidunt.</span>
+			</p>
+		</div>
+	</div>
+</body>
+</html>

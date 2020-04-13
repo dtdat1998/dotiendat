@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>DEMO</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<style type="text/css">
+
+/*DEMO.........*/
+		.container{
+			width: 900px;
+			margin: 0 auto;
+		}
+
+		/*HEADER*/
+		.header{
+			width: 100%;
+			height: 52px;
+			background-color: black;
+		}
+			#hd1{
+				width: 30%;
+				height: 100%;
+				float: left;
+			}
+			#hd1 img{
+				margin-left: 8%;
+				margin-top: 8px;
+			}
+
+			#hd2{
+				width: 50%;
+				height: 100%;
+				float: left;
+			}
+				#search{width: 100%; position: relative; margin-left: 5%; margin-top: 9px;}
+					input[type='text']{width: 90%; height: 30px; border-radius: 15px;	padding: 10px 0px 10px 20px;}
+					input[type='image']{position: absolute; top: 6px;right: 55px;}
+
+			#hd3{
+				width: 20%;
+				height: 100%;
+				float: left;
+			}
+
+				#hd3 #account{
+					font-weight: bold;
+					padding-top: 9%;
+					margin-left: 25%;
+				}
+
+
+		/*BANNER*/
+		.banner{
+			width: 100%;
+			min-height: 200px;
+		}
+
+
+		/*MENU NGANG*/
+		.menu{
+			width: 100%;
+			height: 40px;
+			background-color: black;
+		}
+			#tb1{
+				width: 70%;
+				height: 100%;
+				line-height: 100%;
+				margin-left: 30%;
+			}
+			#tb1 a{
+				color: #fff;
+				text-decoration: none;
+			}
+			#tb1 a:hover{
+				color: #eaab00;
+			}
+		
+
+		/*MAIN*/
+		.content{
+			width: 100%;
+			min-height: 450px;
+		}
+
+		/*MENU DỌC*/
+		.left{
+			width: 25%;
+			min-height: 400px;
+			float: left;
+			background: black;
+		}
+			.left span{
+				margin-left: 15%;
+				line-height: 40px;
+			}
+
+			.left ul{
+				width: 100%;
+				list-style-type: none;
+				padding: 0;
+				background-color: #151515;
+			}
+
+			.left ul a{
+				text-decoration: none;
+				color: #eaab00;
+				font-weight: bold;
+				display: block;
+			}
+
+			.left ul a li{
+				width: auto;
+				height: 40px;
+				line-height: 40px;
+				border-bottom:  1px solid #e8e8e8;
+				padding: 0px 40px;				
+			}
+			.left ul a li:hover{
+				color: black;
+				background-color: #fff;
+			}
+
+			
+
+		
+		/*RIGHT*/
+		.right{
+			width: 75%;
+			min-height: 450px;
+			float: left;
+		}
+			.right span{color: black}
+
+
+		/*FOOTER*/
+		.footer{
+			width: 100%;
+			height: 200px;
+		}
+			#f1{
+				width: 33%;
+				height: 100%;
+				background-color: red;
+				float: left;
+			}
+
+			#f2{
+				width: 34%;
+				height: 100%;
+				background-color: green;
+				float: left;
+			}
+
+			#f3{
+				width: 33%;
+				height: 100%;
+				background-color: blue;
+				float: left;
+			}
+
+		span{
+			color: #fff;
+		}
+	</style>
+	
+
+</head>
+<body>
+
+<!-- DEMO.........* -->
+	<div class="container">
+		<!-- HEADER -->
+		<div class="header">
+			<div id="hd1">
+				<a href=""><img src="https://theme.hstatic.net/1000269795/1000439171/14/logo.png?v=2949" alt="logo" height="70%"></a>
+			</div>
+			<div id="hd2">
+				<div id="search">
+					<form action="" method="" name="">
+						<input type="text" name="key" id="key" placeholder="nhập tìm kiếm" required="">
+						<input type="image" src="https://cdn2.iconfinder.com/data/icons/font-awesome/1792/search-512.png" width="20" alt="submit">
+					</form>
+				</div>
+			</div>
+			<div id="hd3">
+				<a href=""><i class="glyphicon glyphicon-user" style="color: #fff" id="account"> Tài Khoản</i></a>
+			</div>
+		</div>
+
+		<!-- BANNER -->
+		<div class="banner">
+			<img src="https://file.hstatic.net/1000269795/collection/banner_black_friday_giam_50__master.jpg" alt="banner" width="100%">
+		</div>
+
+		<!-- MENU -->
+		<div class="menu">
+			<table id="tb1">
+				<tr>
+					<th><a href="">Trang chủ</a></th>
+					<th><a href="">Tin tức</a></th>
+					<th><a href="">Sản phẩm</a></th>
+					<th><a href="">Liên hệ</a></th>
+					<th><a href="">Showroom</a></th>
+				</tr>
+			</table>
+		</div>
+
+		<!-- CONTENT -->
+		<div class="content">
+			<!-- LEFT -->
+			<div class="left">
+				<span>DANH MỤC SẢN PHẨM</span>
+				<ul>
+					<a href="">
+						<li>Đồng hồ Nam</li>
+					</a>
+					<a href="">
+						<li>Đồng hồ Nữ</li>
+					</a>
+					<a href="">
+						<li>Đồng hồ Automatic</li>
+					</a>
+					<a href="">
+						<li>Đồng hồ Quartz</li>
+					</a>
+					<a href="">
+						<li>Đồng hồ Longines</li>
+					</a>
+					<a href="">
+						<li>Đồng hồ Tissot</li>
+					</a>
+					<a href="">
+						<li>Đồng hồ Citizen</li>
+					</a>
+					<a href="">
+						<li>Đồng hồ Edox</li>
+					</a>
+					<a href="">
+						<li>Đồng hồ Hublot</li>
+					</a>
+					<a href="">
+						<li>Đồng hồ Rolex</li>
+					</a>
+				</ul>
+			</div>
+
+			<!-- RIGHT -->
+			<div class="right">
+				<span>Nội dung bên phải</span>
+			</div>
+		</div>
+
+		<!-- FOOTER -->
+		<div class="footer">
+			<div id="f1"><span>Nội dung footer bên trái</span></div>
+			<div id="f2"><span>Nội dung footer ở giữa</span></div>
+			<div id="f3"><span>Nội dung footer bên phải</span></div>
+		</div>
+	</div>
+	<br><br><br><hr>
+</body>
+</html>

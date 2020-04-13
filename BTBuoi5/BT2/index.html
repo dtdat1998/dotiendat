@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en" style="scroll-behavior: smooth;">
+<head>
+	<meta charset="UTF-8" >
+	<title>Layout</title>
+	<style type="text/css">
+/*BÀI TẬP ÁP DỤNG*/
+		.container1{
+			width: 900px;
+			margin: 0 auto;
+		}
+
+		.header1{
+			width: 100%;
+			height: 110px;
+			background-color: #fff;
+			position: relative;
+		}
+
+			#hd1{
+				width: 20%;
+				height: 100%;
+				float: left;
+				position: absolute;
+				left: 10px;
+				top: 10px;
+			}
+
+			#hd2{
+				width: 60%;
+				height: 100%;
+				position: absolute;
+				left: 20%;
+			}
+
+			#hd3{
+				width: 20%
+				height: 100%;
+				position: absolute;
+				right: 3%;
+				top:10%;				
+			}
+
+			#pH1{
+				color: blue;
+				font-weight: bold;
+				font-size: 19px;	
+				font-family: Helvetica Narrow, sans-serif;			
+			}
+
+			#pH2{
+				color: grey;
+				margin-left: 20%
+
+			}
+
+		.banner1{
+			width: 100%;
+			height: 40px;
+			background-color: blue;
+		}
+		
+		.content1{
+			width: 100%;
+			height: 500px;
+		}
+
+		.leftT{
+			width: 70%;
+			height: 500px;
+			float: left;
+		}
+
+			#leftA{
+				width: 100%;
+				height: 300px;
+				background-color: blue;
+				margin-top: 10px;
+			}
+
+			#leftB{
+				width: 100%;
+				height: 200px;
+			}
+			#text{
+				font-weight: bold;
+				font-size: 16px;
+				padding-top: 50px; 
+			}
+
+		.right1{
+			width: 30%;
+			height: 500px;
+			float: left;
+		}
+			#pR{
+				font-weight: bold;
+				font-size: 19px;
+				text-align: center;
+				margin-top: 30px;
+			}
+
+			.right1 li{
+				color: blue;
+				text-decoration: none;
+				margin-left: 30%;
+				list-style-type: none;
+			}
+
+		.footer1{
+			width: 100%;
+			height: 60px;
+			background-color: black;
+		}
+			#footer{
+				margin-left: 40%;
+				padding-top: 20px;
+				color: #fff;
+			}
+		
+
+
+/*DEMO.........*/
+		.container{
+			width: 900px;
+			margin: 0 auto;
+		}
+
+		.header{
+			width: 100%;
+			height: 110px;
+			background-color: red;
+		}
+
+		.banner{
+			width: 100%;
+			height: 40px;
+			background-color: green;
+		}
+		
+		.content{
+			width: 100%;
+			height: 400px;
+		}
+
+		.left{
+			width: 70%;
+			height: 400px;
+			float: left;
+		}
+
+			#left1{
+				width: 100%;
+				height: 200px;
+				background-color: blue;
+			}
+
+			#left2{
+				width: 100%;
+				height: 200px;
+				background-color: black;
+			}
+
+		.right{
+			width: 30%;
+			height: 400px;
+			background-color: gray;
+			float: left;
+		}
+
+		.footer{
+			width: 100%;
+			height: 110px;
+			background-color: #f93;
+		}
+
+		span{
+			color: #fff;
+		}
+
+
+	</style>
+</head>
+<body>
+
+<!-- BÀI TẬP ÁP DỤNG -->
+	<div class="container1">
+		<!-- HEADER -->
+		<div class="header1">
+			<div id="hd1">
+				<a href="http://itplus-academy.edu.vn/" target="blank">
+					<img src="../img/itplus.png" alt="logo" title="IT plus" height="80" >
+				</a>				
+			</div>
+			<div id="hd2">
+				<p id="pH1">TRƯỜNG ĐẠI HỌC SƯ PHẠM NGHỆ THUẬT TRUNG ƯƠNG</p>
+				<p id="pH2">NATIONAL UNIVERSITY OF ART EDUCATION</p>
+			</div>
+			<div id="hd3">
+				<img src="../img/nuae.png" alt="logo" height="90">
+			</div>
+		</div>
+
+		<!-- BANNER -->
+		<div class="banner1">
+			<div id="menu">
+				<center >
+					<table cellpadding="9" width="100%" >
+						<tr >
+							<th><a href="#header" style="text-decoration: none ; color: #fff">Trang chủ</a></th>
+							<th><a href="#header" style="text-decoration: none ; color: #fff">Giới thiệu</a></th>
+							<th><a href="#header" style="text-decoration: none ; color: #fff">Sản phẩm</a></th>
+							<th><a href="#header" style="text-decoration: none ; color: #fff">Tin tức</a></th>
+							<th><a href="#header" style="text-decoration: none ; color: #fff">Tuyển dụng</a></th>
+							<th><a href="#header" style="text-decoration: none ; color: #fff">Đặt hàng sản phẩm</a></th>
+							<th><a href="#header" style="text-decoration: none ; color: #fff">Đăng ký thực tập</a></th>
+							<th><a href="#header" style="text-decoration: none ; color: #fff">Liên hệ</a></th>
+						</tr>
+					</table>
+				</center>
+			</div>
+		</div>
+
+		<!-- CONTENT -->
+		<div class="content1">
+			<!-- LEFT -->
+			<div class="leftT">
+				<div id="leftA">
+					<img src="../img/php.png" alt="ảnh minh hoạ" width="100%">
+				</div>
+				<div id="leftB">
+					<p id="text">Tuyển lập trình viên PHP</p>
+					<ul >
+						<li class="text">Tham gia xây dựng, phát triển các website tin tức, giải trí.</li>
+						<li class="text">Xử lý các lỗi phát sinh trong quá trình vận hành website</li>
+						<li class="text">Tối ưu hoá code, tối ưu hoá truy xuất cơ sở dữ liệu để các website có thể chịu tải được nhiều triệu lượt truy cập/ngày</li>
+					</ul>
+				</div>
+			</div>
+
+			<!-- RIGHT -->
+			<div class="right1">
+				<p id="pR">Bài viết mới</p>
+				<ul>
+					<li>Bài viết 1</li>
+					<li>Bài viết 2</li>
+					<li>Bài viết 3</li>
+					<li>Bài viết 4</li>
+					<li>Bài viết 5</li>
+				</ul>
+			</div>
+		</div>
+
+		<!-- FOOTER -->
+		<div class="footer1">
+			<div id="footer">© Bản quyền thuộc về DTD</div>
+		</div>
+	</div>
+	<br><br><br><hr><br><br>
+
+
+
+<!-- DEMO.........* -->
+	<div class="container">
+		<!-- HEADER -->
+		<div class="header">
+			<a href="#hd1" style="color: #fff"><span id="header">Header { height: 110px}</span></a>
+		</div>
+
+		<!-- BANNER -->
+		<div class="banner">
+			<span>Nav { height: 40px}</span>
+		</div>
+
+		<!-- CONTENT -->
+		<div class="content">
+			<!-- LEFT -->
+			<div class="left">
+				<div id="left1">
+					<span>Section { height: 200px}</span>
+				</div>
+				<div id="left2">
+					<span>Artilce { height: 200px}</span>
+				</div>
+			</div>
+
+			<!-- RIGHT -->
+			<div class="right">
+				<span>Aside { height: 400px}</span>
+			</div>
+		</div>
+
+		<!-- FOOTER -->
+		<div class="footer">
+			<span>Footer { height: 110px}</span>
+		</div>
+	</div>
+	<br><br><br><hr>
+
+	
+</body>
+</html>
