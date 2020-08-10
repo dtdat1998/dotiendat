@@ -1,0 +1,192 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial;
+}
+
+body{	
+	background-image: url("../img/bg.jpg");
+}
+
+a{
+	text-decoration: none;
+}
+
+#wrapper{
+	width: 1020px;
+	min-height: 950px;
+	margin: 0px auto;
+}
+
+.bgWhite{
+	background-color: white;
+	margin-top: 6px ;
+	padding: 0px 10px;
+	box-sizing: border-box;
+}
+
+#header{
+	width: 100%;
+	height: 82px;
+	background-color: #fff;
+}
+		#hd-left{
+			float: left;
+			padding-top:27px;
+			padding-left: 25px; 
+		}
+
+		#hd-right{
+			float: right;
+			padding-top:31px;
+			padding-right: 17px;
+			font-family: Impact, Charcoal, sans-serif;
+			font-weight: bold;
+			font-size: 25px;
+			color: #307814;
+		}
+
+
+#slide{
+	height: 260px;
+	width: 100%;
+	background-color: #fff;
+}
+
+
+#mid{
+	width: 100%;
+	height: 480px;
+}
+	#menu{
+		width: 310px;
+		height: 440px;
+	}
+		#menu ul{
+			background-color: #307814;
+			width: 260px;
+			height: 440px;
+			padding: 0px;
+			list-style-type: none;
+		}
+
+		#menu ul li{
+			width: auto;
+			height: 40px;
+			line-height: 40px;
+			border-bottom: 1px dotted #fff; 
+			padding: 0px 15px;
+		}
+
+		#menu ul li a{
+			text-decoration: none;
+			color: white;
+			font-weight: bold;
+			display: block;
+		}
+		
+		#menu ul li a .active {			
+			color: #bbd958;
+			background-color: #1d490c;
+		}
+		
+		#menu ul li a:hover{
+			color: #bbd958;
+		}
+
+		#menu ul li:hover{
+			color: #bbd958;
+			background-color: #1d490c;
+		}
+		#menu ul li form input[type='text']{
+			padding: 6px;
+			border-radius: 8px; 
+			width: 90%;
+		}
+
+		#search{
+			position: relative;
+		}
+
+		#ic-se{
+			position: absolute;
+			top: 12px;
+		    right: 17px;
+		}
+
+
+	#product{
+		height: 440px;
+		width: 690px;
+	}
+
+		#text-prd{
+		height: 65px;
+		width: 100%;
+		font-family: Impact, Charcoal, sans-serif;
+		font-weight: bold;
+		line-height: 65px;	
+	    padding-left: 28px;
+		color: #307814;
+		}
+
+		#content{
+			height: 375px;
+			width: 100%;
+		}
+
+		.prd{
+			float: left;
+			width: 230px;
+			height: 100%;
+			padding: 0px 2px;
+			box-sizing: border-box;
+			font-size: 12px;
+			font-weight: bold;
+			text-align: center;
+			line-height: 30px;
+		}
+
+		.prd input[type='submit']{
+			padding: 6px;
+		    border-radius: 5px;
+		    margin-top: 10px;
+		    background-color: #307814;
+		    border: thin;
+		    color: white;
+		} 
+
+		.namePr{
+			color: black;
+		}
+		.price{
+			color: #8f1948;
+		}
+
+	#menu , #product{
+		float: left;
+	}
+
+
+#footer{
+	height: 125px;
+	width: 100%;
+	background-color:  none;	
+	padding: 0px 10px;
+	box-sizing: border-box;
+}
+
+	#ft-left{
+		float: left;
+		width: 260px;
+		height: 100%;	
+	    padding-top: 45px;
+	    box-sizing: border-box;
+	}
+
+	#ft-right{
+		font-size: 12px;
+		color: #606060;	
+	    padding-top: 45px;
+	    box-sizing: border-box;
+	}
